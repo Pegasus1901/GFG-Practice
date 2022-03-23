@@ -5,8 +5,10 @@ public class FactorialOfNumber {
 
 	public static void main(String[] args) {
 		Scanner s= new Scanner(System.in);
+		
 		System.out.println("Enter Number To Find Factorial- ");
 		int a= s.nextInt();
+		
 		int num=1,i;
 		
 		for(i=2; i<=a; i++) {
@@ -15,8 +17,8 @@ public class FactorialOfNumber {
 			}else {
 				num*=i;
 			}
-		System.out.println("Factorial Of Number- "+num);
 		}
+		System.out.println("Factorial Of Number- "+num);
 	}
 
 }
